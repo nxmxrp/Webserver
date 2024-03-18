@@ -1,79 +1,47 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume with Photo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .profile-img {
-            max-width: 150px;
-            border-radius: 50%;
-        }
-    </style>
+<title>My Profile</title>
+<style>
+    body {
+        background-color: #000000; /* Background color */
+        font-family: Arial, sans-serif; /* Font family */
+    }
+    .profile {
+        width: 500px; /* Image width */
+        height: 500px; /* Image height */
+        background-color: white; /* Image background color */
+        border-radius: 50%; /* Make it a circle */
+        overflow: hidden; /* Hide overflow content (if any) */
+        margin: 0 auto; /* Center the image horizontally */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    }
+    .profile img {
+        width: 100%; /* Make the image fill the container */
+        height: 100%; /* Make the image fill the container */
+        object-fit: cover; /* Cover the container */
+    }
+    .profile-content {
+        text-align: center; /* Center text */
+        padding-top: 20px; /* Add some top padding */
+    }
+</style>
 </head>
 <body>
-    <div class="container">
-        <header class="section">
-            <img class="profile-img" src="pic.JPG" alt="Profile Picture">
-            <h1>RATPON PRASRIPHAT</h1>
-            <p>Sale Engineer</p>
-        </header>
-        <section class="section">
-            <h2>Contact Information</h2>
-            <ul>
-                <li>Email: Ratpon.p@gmail.com</li>
-                <li>Phone: 096-007-4804</li>
-                <li>Address: Bangkok, thailand</li>
-            </ul>
-        </section>
-        <section class="section">
-            <h2>Education</h2>
-            <ul>
-                <li>Department of Telecommunications and network Engineering</li>
-                <li> King Mongkut's Institute of Technology Ladkrabang – KMITL</li>
-            </ul>
-        </section>
-        <section class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Microsoft Office (Word,Excel,Powerpoint)</li>
-                <li>Photoshop ,lightroom ,Matlab ,AutoCAD</li>
-                <li>Proteus ,Canva ...other</li>
-            </ul>
-        </section>
-        <section class="section">
-            <h2>Experience</h2>
-            <ul>
-                <li>LoRa and GPS Integrated Environmental Monitoring and Reporting System for Rail Transportation</li>
-                <li>( at  ACUITMESH COMPANY LIMITED ) May - July 2023.</li>
-            </ul>
-        </section>
-    </div>
+<div class="profile">
+    <img src="pic.JPG" alt="Profile Picture">
+</div>
+<div class="profile-content">
+    <h1 style="color: #900f0f;">resume</h1>
+    <h3 style="color: #f12954;">
+        Name: RATPON PRASRIPHAT<br>
+        Student ID: 63010818 ID<br>
+        Nickname: NAME<br>
+        Field of Study: ENGINEER<br>
+        University: KMITL<br>
+        E-mail:RATPON.P@GMAIL.COM<br><br>
+    </h3>
+</div>
 </body>
 </html>
